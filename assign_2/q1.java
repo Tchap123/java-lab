@@ -4,7 +4,7 @@ class details{
 			string name;
 			string gender;
 			int age;
-			string seatype;
+			string seattype;
 			public void details(){
 				System.out.println("enter name: ");
 				this.name=sc.nextLine();
@@ -43,7 +43,7 @@ class q1{
 			
 			//if 3 seats per then 1 seat for aged 
 			//aged cnt++ with seat choice :condition:
-			if(seatype == "low" && low)
+			if(seattype == "low" && low)
 			for(int i=0;i<nop;i++){
 				arr[i].display();
 			}
